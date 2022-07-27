@@ -257,7 +257,7 @@ header {
   position: absolute;
   width: 22rem;
   height: 22rem;
-  top: 10rem;
+  top: 9rem;
   left: 15rem;
   overflow: hidden;
   transition: var(--transition);
@@ -307,7 +307,7 @@ header {
 .gallery-images {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  gap: 1.8rem;
   place-items: center;
 }
 .gallery-img {
@@ -392,4 +392,13 @@ header {
 }
 .collage-img:hover img {
   filter: saturate(1) brightness(1);
+}
+/* ===============FOOTER STARTS=============== */
+footer p {
+  color: black;
+  text-align: center;
+  padding: 5rem;
+}
+footer span {
+  color: var(--color-tr-5);
 }
